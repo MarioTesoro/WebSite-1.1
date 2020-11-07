@@ -1909,7 +1909,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 .service_area::after {
   position: absolute;
   content: "";
-  background-image: url(../img/banner/Banner_Service_dom.jpg);
+  background-image: url(../img/banner/Banner_Service_dom.jpg);/*  modifica immagine*/
   height: 650px;
   left: 0;
   right: 0;
