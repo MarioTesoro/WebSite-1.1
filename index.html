@@ -8,8 +8,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS here -->
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- bootstrap -->
     <!-- <link rel="stylesheet" href="css/bootstrap-social.css">
     <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -223,204 +224,176 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-12" style="-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
-                    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
-                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);padding-top: 10px;">
-                        <div class="gallery_active owl-carousel">
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/acconciatura sposa.jpg" alt="Acconciatura sposa">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Acconciatura sposa</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/acconciatura sposa.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
+                    <!-- carousel -->
+                    <div id="carouselGallery" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselGallery" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselGallery" data-slide-to="1"></li>
+                            <li data-target="#carouselGallery" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100">
+                            <!-- card group-->
+                            <div class="card-deck">
+                                <div class="card">
+                                    <img src="img/gallery/acconciatura sposa.jpg" class="card-img-top" alt="Acconciatura sposa">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Acconciatura sposa</h5>    
                                     </div>
                                 </div>
+                                <div class="card">
+                                    <img src="img/gallery/light blonde.jpg" class="card-img-top" alt="Light blonde">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Light blonde</h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="img/gallery/velature bionde.jpg" class="card-img-top" alt="Velature bionde">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Velature bionde</h5>
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/light blonde.jpg" alt="Light blonde">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Light Blonde</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/light blonde.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/velature bionde.jpg" alt="Velature bionde">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Velature bionde</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/velature bionde.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/biondo caldo.jpg" alt="Biondo caldo">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Biondo caldo</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/gallery/biondo caldo.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/pastello.jpg" alt="Pastello">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Pastello</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/gallery/pastello.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                <img src="img/gallery/platino.jpg" alt="Platino">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Platino</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/gallery/platino.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/cioccolato.jpg" alt="Cioccolato">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Cioccolato</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/gallery/cioccolato.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/gianduia.jpg" alt="Gianduia">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Gianduia</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/gallery/gianduia.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/red.jpg" alt="Red">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Red</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/red.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/bob.jpg" alt="Bob">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Bob</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/bob.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/contrasti.jpg" alt="Contrasti">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Contrasti</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/contrasti.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/sfumando.jpg" alt="Sfumando">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Sfumando</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/sfumando.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/stravaganze.jpg" alt="Stravaganze">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Stravaganze</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/stravaganze.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/stravaganze2.jpg" alt="Stravaganze">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Stravaganze</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/stravaganze2.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/semi raccolto.jpg" alt="Semi raccolto">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Semi raccolto</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/semi raccolto.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/waves.jpg" alt="Waves">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Waves</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/waves.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/gallery/waves2.jpg" alt="Waves">
-                                    <p style="font-size: 18px;color:#300033;font-family:Playfair Display;font-size: 30px;padding: 5px;">Waves</p>
-                                    <div class="image_hover">
-                                        <a class="popup-image" href="img/gallery/waves2.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            <!-- card group-->
                             </div>
                         </div>
+                        <div class="carousel-item ">
+                            <div class="d-block w-100">
+                            <!-- card group-->
+                            <div class="card-deck">
+                                <div class="card">
+                                    <img src="img/gallery/biondo caldo.jpg" class="card-img-top" alt="Biondo caldo">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Biondo caldo</h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="img/gallery/pastello.jpg" class="card-img-top" alt="Pastello">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Pastello</h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="img/gallery/platino.jpg" class="card-img-top" alt="Pastello">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Platino</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card group-->
+                            </div>   
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="d-block w-100">
+                                <!-- card group-->
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img src="img/gallery/cioccolato.jpg" class="card-img-top" alt="Cioccolato">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Cioccolato</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/gallery/gianduia.jpg" class="card-img-top" alt="Gianduia">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Gianduia</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/gallery/red.jpg" class="card-img-top" alt="Red">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Red</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="d-block w-100">
+                                <!-- card group-->
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img src="img/gallery/bob.jpg" class="card-img-top" alt="Bob">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Bob</h5>
+                                        </div>
+                                    </div> 
+                                    <div class="card">
+                                        <img src="img/gallery/contrasti.jpg" class="card-img-top" alt="Contrasti">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Contrasti</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/gallery/sfumando.jpg" class="card-img-top" alt="Sfumando">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Sfumando</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="d-block w-100">
+                                <!-- card group-->
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img src="img/gallery/stravaganze.jpg" class="card-img-top" alt="Stravaganze">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Stravaganze</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="img/gallery/waves2.jpg" class="card-img-top" alt="Waves">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Waves</h5>
+                                        </div>
+                                    </div> 
+                                    <div class="card">
+                                        <img src="img/gallery/semi raccolto.jpg" class="card-img-top" alt="Semi raccolto">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Semi raccolto</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+                        <!-- <div class="carousel-item ">
+                            <div class="d-block w-100">
+                                
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img src="img/gallery/waves.jpg" class="card-img-top" alt="Waves">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Waves</h5>
+                                        </div>
+                                    </div> 
+                                    <div class="card">
+                                        <img src="img/gallery/stravaganze2.jpg" class="card-img-top" alt="Stravaganze">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Stravaganze</h5>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>        
+                        </div> -->
+                        <a class="carousel-control-prev" href="#carouselGallery" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselGallery" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
                     </div>
+                    <div class="d-inline-block " >
+                        <a href="https://fb.me/aTIQDelpOFq7Rt" class="boxed-btn3" style="padding: 20px;margin-bottom: 10px;margin-top:0.5cm;" >Acquista ora</a>
+                    </div>   
+                    <!-- carousel -->
                 </div>
             </div>
         </div>
@@ -440,95 +413,82 @@
                 </div>
                 
                 <div class="row">
-                     <!-- carousel -->
-                     <!-- carousel -->
-                    <div class="col-xl-12" style="-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
-                    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
-                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);padding-top: 10px;">
-                        <div class="gallery_active owl-carousel">
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/Products/Maschera Anticrescpo Haircompany.jpg" alt="">
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/Products/Maschera Anticrescpo Haircompany.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <h2>Maschera Anticrescpo Haircompany</h2>
-                                <p style="font-size: 18px;color:#300033;font-family:Playfair Display;">MASCHERA ANTICRESPO  HAIR FRIZZ STOPPER MASK 
-
-                                    Maschera Hair Frizz Stopper
-                                    
-                                    Con le sue proprietà antiossidanti ed emollienti, questa maschera lascia i capelli più danneggiati lucenti e facili da pettinare
-                                     grazie anche all'estratto di foglie di olivo italiano contenuto nella sua formula (pH 3.5).
-                                     
-                                    Ideale per i clienti che desiderano idratazione e capelli facili da pettinare.
-                                     
+                    <!-- carousel -->
+                    <div id="carouselProducts" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselProducts" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselProducts" data-slide-to="1"></li>
+                            <li data-target="#carouselProducts" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100">
+                            <!-- card group-->
+                            <div class="card-deck">
+                                <div class="card">
+                                <img src="img/Products/Maschera Anticrescpo Haircompany.jpg" class="card-img-top" alt="Maschera anticrespo">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Maschera anticrespo Haircompany</h5>
+                                    <p class="card-text" >Con le sue proprietà antiossidanti ed emollienti, questa maschera lascia i capelli più danneggiati lucenti e facili da pettinare
+                                        grazie anche all'estratto di foglie di olivo italiano contenuto nella sua formula (pH 3.5).
+                                        
+                                    Ideale per i clienti che desiderano idratazione e capelli facili da pettinare. 
                                     Per capelli crespi e danneggiati.
-                                     
-                                    No Sles, Parabens, Petrolates. DERMATOLOGICAMENTE TESTATO
-                                     
-                                    Formato: 200 ml
-                                     
-                                    Marchio: Hair Company</p>
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/Products/redken all soft vegan.jpg" alt="">
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/Products/redken all soft vegan.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
+                                    Formato: 200 ml</p>
                                 </div>
-                                <h2>Redken all soft vegan</h2>
-                                <p style="font-size: 18px;color:#300033;font-family:Playfair Display;">
-                                    Conditioner idratante con formula vegana a base di linfa di betulla, dona morbidezza e condizionamento, dando ai capelli un aspetto più sano. Adatto a capelli secchi. 
-
-                                    Idrata e dona morbidezza. Rende i capelli più condizionati, per un aspetto più sano.</p>
-                                <!-- <a style="display:block;color: #300033;" href="https://www.redken.it/prodotti/hair-care/nature-science/nature-science-all-soft-conditioner">Leggi la descrizione</a> -->
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/Products/redken color extend vegan.jpg" alt="">
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/Products/redken color extend vegan.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
                                 </div>
-                                <h2>Redken color extend vegan</h2>
-                                <p style="font-size: 18px;color:#300033;font-family:Playfair Display;">
-                                    Shampoo per capelli colorati con formula vegana a base di ginseng, mantiene e prolunga l'effetto del colore sui capelli, donando loro brillantezza. Adatto a capelli colorati.
+                                <div class="card">
+                                <img src="img/Products/redken all soft vegan.jpg" class="card-img-top" alt="Redken all soft vegan">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Redken all soft vegan</h5>
+                                    <p class="card-text">Conditioner idratante con formula vegana a base di linfa di betulla, dona morbidezza e condizionamento, dando ai capelli un aspetto più sano. Adatto a capelli secchi. 
 
-                                    Mantiene ed evidenzia il colore dei capelli rendendolo più vibrante e donando maggiore brillantezza.</p>
-                                <!-- <a style="display:block;color: #300033;" href="https://www.redken.it/prodotti/hair-care/nature-science/nature-science-color-extend-shampoo">Leggi la descrizione</a> -->
-                            </div>
-                            <div class="single_gallery">
-                                <div class="thumb">
-                                    <img src="img/Products/redken extreme vegan.jpg" alt="">
-                                    <div class="image_hover">
-                                        <a class="popup-image"
-                                            href="img/Products/redken extreme vegan.jpg">
-                                            <i class="ti-plus"></i>
-                                        </a>
-                                    </div>
+                                        Idrata e dona morbidezza. Rende i capelli più condizionati, per un aspetto più sano.</p>
                                 </div>
-                                <h2>Redken extreme vegan</h2>
-                                <p  style="font-size: 18px;color:#300033;font-family:Playfair Display;">
-                                    Shampoo riparatore con formula vegana a base di lupini, dona forza ai capelli e aiuta a prevenire le rotture e le doppie punte. Adatto a capelli danneggiati. 
-
-                                    Fortifica i capelli. Aiuta a prevenire le rotture e le doppie punte.</p>
-                                <!-- <a style="display:block;color: #300033;" href="https://www.redken.it/prodotti/hair-care/nature-science/nature-science-extreme-shampoo">Leggi la descrizione</a> -->
+                                </div>
+                            </div>
+                            <!-- card group-->
                             </div>
                         </div>
-                        <div class="d-inline-block " >
-                            <a href="https://www.ebay.it/usr/satisfaction_39?_trksid=p2047675.l2559" class="boxed-btn3" style="padding: 20px;margin-bottom: 10px;" >Acquista ora</a>
+                        <div class="carousel-item ">
+                            <div class="d-block w-100">
+                            <!-- card group-->
+                            <div class="card-deck">
+                                <div class="card">
+                                <img src="img/Products/redken color extend vegan.jpg" class="card-img-top" alt="redken color extend vegan">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Redken color extend vegan</h5>
+                                    <p class="card-text">Shampoo per capelli colorati con formula vegana a base di ginseng, mantiene e prolunga l'effetto del colore sui capelli, donando loro brillantezza. Adatto a capelli colorati.
+
+                                        Mantiene ed evidenzia il colore dei capelli rendendolo più vibrante e donando maggiore brillantezza.</p>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <img src="img/Products/redken extreme vegan.jpg" class="card-img-top" alt="Redken extreme vegan">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Redken extreme vegan</h5>
+                                    <p class="card-text">Shampoo riparatore con formula vegana a base di lupini, dona forza ai capelli e aiuta a prevenire le rotture e le doppie punte. Adatto a capelli danneggiati. 
+
+                                        Fortifica i capelli. Aiuta a prevenire le rotture e le doppie punte.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- card group-->
+                            </div>   
                         </div>
+                        <a class="carousel-control-prev" href="#carouselProducts" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselProducts" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="d-inline-block " >
+                        <a href="https://fb.me/aTIQDelpOFq7Rt" class="boxed-btn3" style="padding: 20px;margin-bottom: 10px;margin-top:0.5cm;" >Acquista ora</a>
+                    </div>   
+                    <!-- carousel -->
                     </div>
                 </div>
             </div>
@@ -607,14 +567,11 @@
         </footer>
     </div>
 
-    <!-- footer -->
-    <!-- link that opens popup -->
-
-    <!-- JS here -->
-    <!-- <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/main.js"></script> -->
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
 </body>
 </html>
     
