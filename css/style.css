@@ -275,6 +275,12 @@ h3 {
     height: 60vh;
   }
 }
+@media(max-width:576px){
+  .mylogo{
+    height: 80px;
+    width: 240px;
+  }
+}
 
 /* line 174, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 .section-padding {
@@ -285,6 +291,9 @@ h3 {
 /* line 178, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 .pt-120 {
   padding-top: 120px;
+}
+.navbar-inverse .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
 }
 
 /* button style */
