@@ -560,10 +560,16 @@
         </div>
     </section>
     <!-- gallery_area_end -->
-
-
-
-
+    <script>
+        $(document).ready(function() {
+           $("#carouselProducts").swiperight(function() {
+              $(this).carousel('prev');
+            });
+           $("#carouselProducts").swipeleft(function() {
+              $(this).carousel('next');
+           });
+        });
+    </script>
     <!-- footer -->
         <footer class="footer ">
             <div class="footer_top">
@@ -630,6 +636,7 @@
                 </div>
             </div>
         </footer>
+    <!-- footer -->
 
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
