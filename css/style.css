@@ -265,6 +265,32 @@ h3 {
   z-index: -1;
   opacity: 0.5;
 }
+@media(max-width:576px){
+  .inv{
+    visibility: hidden;
+  }
+}
+@media(max-width:576px){
+  .card-deck{
+    flex-direction: row;
+
+  }
+}
+@media(max-width:576px){
+  .red{
+    height: 71%;
+    width: 100%;
+  }
+  .platinum{
+    height: 62%;
+    width: 100%;
+  }
+  .velature{
+    height: 65%;
+    width: 100%;
+  }
+}
+
 @media(max-width:767px){
   .overlay2::before{
     height: 80vh;

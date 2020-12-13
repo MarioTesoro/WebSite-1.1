@@ -9,33 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">  
 
      <!-- bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
     
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-    <!-- swipe bootstrap -->
-    <script type="text/javascript"src="./jquery.touchSwipe.min.js" ></script>
-    <!-- swipe bootstrap -->
-    <script type="text/javascript">
-        jQuery( function( $ ) {
-            $( '.carousel-inner' ).swipe( {
-                swipeLeft: function( e, direction, distance, duration, count ) {
-                    $( this ).parent().carousel( 'prev' );
-                },
-                swipeRight: function( e, direction, distance, duration, count ) {
-                    $( this ).parent().carousel( 'next' );
-                },
-                    threshold: 0
-            } );
-        } );
-    </script>  
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -256,11 +230,6 @@
                 <div class="row">
                     <!-- carousel -->
                     <div id="carouselGallery" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselGallery" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselGallery" data-slide-to="1"></li>
-                            <li data-target="#carouselGallery" data-slide-to="2"></li>
-                        </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="d-block w-100">
@@ -285,7 +254,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="img/gallery/velature bionde.jpg" class="card-img-top"
+                                            <img src="img/gallery/velature bionde.jpg" class="card-img-top velature"
                                                 alt="Velature bionde">
                                             <div class="card-body">
                                                 <h5 class="card-title"
@@ -352,7 +321,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="img/gallery/red.jpg" class="card-img-top" alt="Red">
+                                            <img src="img/gallery/red.jpg" class="card-img-top red" alt="Red">
                                             <div class="card-body">
                                                 <h5 class="card-title"
                                                     style="font-size: 18px;color:#300033;font-family:Playfair Display;">
@@ -407,7 +376,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="img/gallery/waves2.jpg" class="card-img-top" alt="Waves">
+                                            <img src="img/gallery/waves2.jpg" class="card-img-top img-responsive" alt="Waves">
                                             <div class="card-body">
                                                 <h5 class="card-title"
                                                     style="font-size: 18px;color:#300033;font-family:Playfair Display;">
@@ -415,7 +384,7 @@
                                             </div>
                                         </div>
                                         <div class="card">
-                                            <img src="img/gallery/semi raccolto.jpg" class="card-img-top"
+                                            <img src="img/gallery/semi raccolto.jpg" class="card-img-top img-responsive"
                                                 alt="Semi raccolto">
                                             <div class="card-body">
                                                 <h5 class="card-title"
@@ -426,39 +395,40 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="carousel-item ">
-                            <div class="d-block w-100">
+                            <div class="carousel-item ">
+                            <div class="d-block w-100 ">
                                 
                                 <div class="card-deck">
                                     <div class="card">
-                                        <img src="img/gallery/waves.jpg" class="card-img-top" alt="Waves">
+                                        <img src="img/gallery/waves.jpg" class="card-img-top img-responsive" alt="Waves">
                                         <div class="card-body">
                                             <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Waves</h5>
                                         </div>
                                     </div> 
                                     <div class="card">
-                                        <img src="img/gallery/stravaganze2.jpg" class="card-img-top" alt="Stravaganze">
+                                        <img src="img/gallery/stravaganze2.jpg" class="card-img-top img-responsive" alt="Stravaganze">
                                         <div class="card-body">
                                             <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Stravaganze</h5>
                                         </div>
                                     </div>
-                                    
+                                    <div class="card">
+                                        <img src="img/gallery/BlondePlatinum.jpeg" class="card-img-top img-responsive platinum" alt="Blonde platinum">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="font-size: 18px;color:#300033;font-family:Playfair Display;">Blonde platinum</h5>
+                                        </div>
+                                    </div>
                                 </div>
                                 
                             </div>        
-                        </div> -->
-                            <a class="carousel-control-prev" href="#carouselGallery" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </div>
+                            <a class="carousel-control-prev inv" href="#carouselGallery" role="button" data-slide="prev">
+                                <span style="width:40px;height:40px;" class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselGallery" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <a class="carousel-control-next inv" href="#carouselGallery" role="button" data-slide="next">
+                                <span  style="width:40px;height:40px;"class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-                        </div>
-                        <div class="d-inline-block ">
-                            <a href="https://fb.me/aTIQDelpOFq7Rt" class="boxed-btn3"
-                                style="padding: 20px;margin-bottom: 10px;margin-top:0.5cm;">Acquista ora</a>
                         </div>
                         <!-- carousel -->
                     </div>
@@ -482,11 +452,6 @@
                 <div class="row">
                     <!-- carousel -->
                     <div id="carouselProducts" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselProducts" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselProducts" data-slide-to="1"></li>
-                            <li data-target="#carouselProducts" data-slide-to="2"></li>
-                        </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="d-block w-100">
@@ -568,17 +533,17 @@
                                     <!-- card group-->
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselProducts" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <a class="carousel-control-prev inv" href="#carouselProducts" role="button" data-slide="prev">
+                                <span style="width:40px;height:40px;" class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselProducts" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <a class="carousel-control-next inv" href="#carouselProducts" role="button" data-slide="next">
+                                <span style="width:40px;height:40px;" class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
                         <div class="d-inline-block ">
-                            <a href="https://fb.me/aTIQDelpOFq7Rt" class="boxed-btn3"
+                            <a href="https://www.facebook.com/SatisfactionHairDesigner/shop/?ref_code=mini_shop_page_card_cta&ref_surface=page" class="boxed-btn3"
                                 style="padding: 20px;margin-bottom: 10px;margin-top:0.5cm;">Acquista ora</a>
                         </div>
                         <!-- carousel -->
@@ -588,7 +553,7 @@
         </div>
     </section>
     <!-- gallery_area_end -->
-    <script>
+    <!-- <script>
         $(document).ready(function() {
            $("#carouselProducts").swiperight(function() {
               $(this).carousel('prev');
@@ -597,7 +562,7 @@
               $(this).carousel('next');
            });
         });
-    </script>
+    </script> -->
     <!-- footer -->
         <footer class="footer ">
             <div class="footer_top">
@@ -666,5 +631,31 @@
         </footer>
     <!-- footer -->
 </body>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <!-- swipe bootstrap -->
+    <script type="text/javascript"src="./jquery.touchSwipe.min.js" ></script>
+    <!-- swipe bootstrap -->
+    <script type="text/javascript">
+        jQuery( function( $ ) {
+            $( '.carousel-inner' ).swipe( {
+                swipeLeft: function( e, direction, distance, duration, count ) {
+                    $( this ).parent().carousel( 'prev' );
+                },
+                swipeRight: function( e, direction, distance, duration, count ) {
+                    $( this ).parent().carousel( 'next' );
+                },
+                    threshold: 0
+            } );
+        } );
+    </script>  
 </html>
