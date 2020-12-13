@@ -276,21 +276,34 @@ h3 {
 
   }
 }
+.platinum{
+  height: 85%;
+  width: 100%;
+}
 @media(max-width:576px){
-  .red{
+  /* .red{
     height: 71%;
-    width: 100%;
-  }
-  .platinum{
-    height: 62%;
     width: 100%;
   }
   .velature{
     height: 65%;
     width: 100%;
+  } */
+  .platinum{
+    height: 62%;
+    width: 100%;
+  }
+  
+  .card-resp{
+    width: 33.3%;
   }
 }
-
+@media(max-width:767px){
+  .platinum{
+    height: 72%;
+    width: 100%;
+  }
+}
 @media(max-width:767px){
   .overlay2::before{
     height: 80vh;
